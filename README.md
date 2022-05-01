@@ -32,13 +32,13 @@ Above two link show a brief demo of application with respect to User section and
 
 Tech Used :
 
-<img src="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png" alt='Java' width="100" height="100"/>
-<img src ="https://tse2.mm.bing.net/th?id=OIP.ng3VSQQOqW_gUd4dkTT1mgHaHa&pid=Api&P=0&w=168&h=168" alt='Android Studio'width="100" height="100"/>
-<img src="https://innovationm.co/wp-content/uploads/2017/11/1.-Firebase-Authentication__1.png" alt='Firebase Authentication' width="100" height="100"/>
-<img src ="https://media.geeksforgeeks.org/wp-content/uploads/20190421141241/gfg53.png" alt='Firebase database' width="100" height="100"/>
-<img src="https://i2.wp.com/theengineerscafe.com/wp-content/uploads/2017/07/firebase4.png?fit=1920%2C1080&ssl=1" alt='Firebase Storage' width="100" height="100"/>
-<img src ="https://tse3.mm.bing.net/th?id=OIP.dz4m0lV5yrGVjLIXF2Kh9QHaGN&pid=Api&P=0&w=197&h=165" alt='Algorand BlockChain' width="100" height="100"/>
-<img src ="https://www.pinclipart.com/picdir/middle/258-2581791_google-maps-markerphoto-imagegoogle-maps-api-clipart.png"alt='Google Maps API' width="100" height="100"/>
-<img src ="https://logodix.com/logo/28614.png" alt='Twillio API'/>
+<img src="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png" alt='Java' width="200" height="200"/>
+<img src ="https://tse2.mm.bing.net/th?id=OIP.ng3VSQQOqW_gUd4dkTT1mgHaHa&pid=Api&P=0&w=168&h=168" alt='Android Studio'width="200" height="200"/>
+<img src="https://innovationm.co/wp-content/uploads/2017/11/1.-Firebase-Authentication__1.png" alt='Firebase Authentication' width="200" height="200"/>
+<img src ="https://media.geeksforgeeks.org/wp-content/uploads/20190421141241/gfg53.png" alt='Firebase database' width="200" height="200"/>
+<img src="https://i2.wp.com/theengineerscafe.com/wp-content/uploads/2017/07/firebase4.png?fit=1920%2C1080&ssl=1" alt='Firebase Storage' width="200" height="200"/>
+<img src ="https://tse3.mm.bing.net/th?id=OIP.dz4m0lV5yrGVjLIXF2Kh9QHaGN&pid=Api&P=0&w=197&h=165" alt='Algorand BlockChain' width="200" height="200"/>
+<img src ="https://www.pinclipart.com/picdir/middle/258-2581791_google-maps-markerphoto-imagegoogle-maps-api-clipart.png"alt='Google Maps API' width="200" height="200"/>
+<img src ="https://logodix.com/logo/28614.png" alt='Twillio API' width="200" height="200" />
 
 ##THANK YOU
