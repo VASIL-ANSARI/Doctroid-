@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.hospital.HospitalSignInActivity">
+            <ImageView
+                android:id="@+id/hsignIn_errorDialog_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/back_error_dialog"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toStartOf="@+id/hguideline_4"
+                app:layout_constraintStart_toStartOf="@+id/hguideline_1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/hsignIn_errorMessage_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="gotham_rounded_light"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="@+id/hguideline_4"
+                app:layout_constraintStart_toStartOf="@+id/hguideline_1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/hsignIn_view_header_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_solid_logo_login"
+                android:translationZ="-10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/hguideline_4"
+        app:layout_constraintStart_toStartOf="@+id/hguideline_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hsignIn_view_header_layout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/hsignIn_email_textInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Unique-Code send via SMS"
+                android:textColorHint="@color/colorPrimaryDark">
+
+                <com.example.bchainprac.customView.CustomEditText
+                    android:id="@+id/hsignIn_email_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="gotham_rounded_book" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/hphone_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Otp"
+                android:layout_marginTop="10dp"
+                android:textColorHint="@color/colorPrimaryDark"
+                >
+
+                <com.example.bchainprac.customView.CustomEditText
+                    android:id="@+id/hphone_no_edit_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="gotham_rounded_book" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/hsignIn_login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_solid_primary_dark"
+                android:fontFamily="gotham_rounded_medium"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"
+                android:text="Sign In"
+                 />
+            <Button
+                android:id="@+id/hsend_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_solid_primary_dark"
+                android:fontFamily="gotham_rounded_medium"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"
+                android:layout_marginTop="15dp"
+                android:text="Send OTP"
+                 />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hdoNotHaveAcc_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="gotham_rounded_medium"
+                    android:text="Don't Have Account?"
+                    android:gravity="end"
+                    android:layout_gravity="center|start"
+                    android:textColor="#95989A"
+                    android:textSize="16sp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/hsignIn_createAccount_textView"
+                    android:layout_width="wrap_content"
+                    android:paddingStart="8dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="breeserif_regular"
+                    android:text="Request Access"
+                    android:gravity="start"
+                    android:layout_gravity="center|start"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

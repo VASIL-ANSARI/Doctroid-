@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4AD1AD</color>
+    <color name="colorPrimaryDark">#19769F</color>
+    <color name="colorText">#1E3148</color>
+    <color name="colorGrayBackground">#FBFCFE</color>
+    <color name="colorGray">#AFAFAF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#FF7474</color>
+    <color name="colorOrange">#fb7f00</color>
+    <color name="colorGreen">#6b0</color>
+    <color name="colorBabyBlue">#00c2ff</color>
+    <color name="colorBrown">#CAB89D</color>
+    <color name="colorAccent">#5FE5BC</color>
+    <color name="colorHide">#00FFFFFF</color>
+    <color name="red">#DA1A0C</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryDark</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+
+    <color name="multiple_image_select_primary">#673AB7</color>
+    <color name="multiple_image_select_primaryDark">#512DA8</color>
+    <color name="multiple_image_select_primaryLight">#D1C4E9</color>
+    <color name="multiple_image_select_accent">#536DFE</color>
+    <color name="multiple_image_select_primaryText">#212121</color>
+    <color name="multiple_image_select_secondaryText">#727272</color>
+    <color name="multiple_image_select_divider">#B6B6B6</color>
+    <color name="multiple_image_select_toolbarPrimaryText">#FFFFFF</color>
+    <color name="multiple_image_select_albumTextBackground">#99FFFFFF</color>
+    <color name="multiple_image_select_imageSelectBackground">#000000</color>
+</resources>

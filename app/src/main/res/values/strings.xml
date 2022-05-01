@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Doctroid</string>
+    <string name="copy_rights">All Rights Reserved © 2022 Doctroid</string>
+    <string name="next">"Next"</string>
+    <string name="welcome">"Welcome"</string>
+    <string name="logout">"LOGOUT"</string>
+    <string name="start">Got it</string>
+    <string name="slide_1_title">On Touch</string>
+    <string name="slide_1_desc">Stay on one touch with doctors and updated medical analysis.</string>
+    <string name="slide_2_title">Explore</string>
+    <string name="slide_2_desc">Explore many feature around the hospital on one tap.</string>
+    <string name="slide_3_title">"Don't miss"</string>
+    <string name="slide_3_desc">"Don't miss anything! your medical CV is ready for you anywhere, anytime."</string>
+    <string name="sign_in">"Sign in</string>
+    <string name="image_icon">image_icon</string>
+    <string name="first_name_required">First name is required</string>
+    <string name="last_name_required">Last name is required</string>
+    <string name="email_not_valid">Enter a valid Email</string>
+    <string name="email_required">Email is required</string>
+    <string name="phone_required">Phone number is required</string>
+    <string name="phone_not_valid">Enter valid phone number</string>
+    <string name="password_not_valid">Enter a valid Password</string>
+    <string name="email_and_password_not_valid">"Email/Password not valid"</string>
+    <string name="password_required">Password is required</string>
+    <string name="confirm_password_required">Confirm password</string>
+    <string name="password_not_matched">Passwords don\'t matched</string>
+    <string name="request_error">Request error, please try again.</string>
+    <string name="something_wrong">Something went wrong, please try again.</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="email">"&#8230; Email: "</string>
+    <string name="down_arrow">scroll down for more suggestion &#9660;</string>
+    <string name="Forgot_Password">Forgot Password</string>
+    <string name="reset_link">We just need your register e-mail ID to send reset link</string>
+    <string name="E_mail">E-mail</string>
+    <string name="Reset_password">Reset password</string>
+    <string name="hospital_location">""</string>
+    <string name="hospital_phone">""</string>
+    <string name="hospital_website">""</string>
+    <string name="hospital_news">""</string>
+    <string name="hospital_facebook">""</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="status">Status</string>
+    <string name="emptyAppoint">Your do not have any appointment requests yet.\nMedical Analysis > Choose Test > Appoint.</string>
+    <string name="Rejected">"The request is rejected, we sent you a notification for what's wrong. Check it out!"</string>
+    <string name="Accepted">"The request is accepted, we're happy to see you in our laboratory on the declared date."</string>
+    <string name="Pending">"The request is under review, please wait for us!"</string>
+    <string name="questions">Questions</string>
+    <string name="appointment">Appointment</string>
+    <string name="emergency">Emergency</string>
+    <string name="hospital">O6U Hospital</string>
+    <string name="medical_analysis">Medical Analysis</string>
+    <string name="Medicine">Medicine</string>
+    <string name="medical_cv">Disease Diagnostic</string>
+    <string name="check_connection">Please check your internet connection!</string>
+    <string name="add_medicine">+ Add to my medicines</string>
+    <string name="precautions_en">Precautions:</string>
+
+    <string name="vpa">vasil.ansari@ybl</string>
+    <string name="payee">User</string>
+    <string name="transaction_description">transaction</string>
+    <string name="amount">10.00</string>
+    <string name="test_transaction">Doctroid Wallet Transaction</string>
+
+    <string-array name="symptom_list">
+        <item>SELECT SYMPTOM</item>
+        <item>Anxiety</item>
+        <item>Stomach Ache</item>
+        <item>Nausea</item>
+        <item>Vomiting</item>
+        <item>Fever</item>
+        <item>Sudden Weight Loss</item>
+        <item>Sweating</item>
+        <item>Muscle And Body Pain</item>
+        <item>Thirsty Than Usual</item>
+        <item>Headaches</item>
+        <item>Weakness/Fatigue</item>
+        <item>Abdominal Pain</item>
+        <item>Muscle Pain</item>
+        <item>Dry Cough</item>
+        <item>Diarrhoea/Constipation</item>
+        <item>Frequent Urination</item>
+        <item>Hunger</item>
+        <item>Blurred Vision</item>
+        <item>Skin Itching</item>
+        <item>Chest Pain</item>
+        <item>Shortness in Breath</item>
+        <item>Dizziness</item>
+        <item>Fast Heartbeat</item>
+        <item>Indigestion</item>
+        <item>Pressure Or Heaviness In Chest</item>
+    </string-array>
+
+    <string-array name="brand_names">
+        <item>NONE</item>
+        <item>AMICOR</item>
+        <item>ALIN</item>
+        <item>FIVOCIL</item>
+        <item>FENDROP</item>
+        <item>FLURISONE</item>
+        <item>WISRONE</item>
+        <item>WARF</item>
+        <item>WIDCEF</item>
+        <item>XYLOCX</item>
+        <item>XL-80</item>
+        <item>XL-90</item>
+        <item>MEGAMICA</item>
+        <item>MACOX</item>
+        <item>NYRIN</item>
+        <item>NEUROTRATE/Constipation</item>
+        <item>ZEDOCEF</item>
+        <item>ZYDOL</item>
+    </string-array>
+
+    <string name="wallet_info">You don\'t have any wallet attached to yout account.</string>
+    <string name="wallet_progress">Activation of wallet is pending. It will be activated with 2-3 working days.Thanks for your patience !!!</string>
+</resources>

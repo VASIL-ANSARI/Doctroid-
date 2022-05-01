@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.WalletCheck">
+
+    <ImageView
+        android:id="@+id/imgg"
+        android:src="@drawable/wallet_icon"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/wallet_no"
+        android:layout_below="@+id/imgg"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="20sp"
+            android:textSize="15sp"
+            android:fontFamily="@font/gotham_rounded_medium"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:text="@string/wallet_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/walletAdd_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_solid_white"
+            android:fontFamily="@font/gotham_rounded_medium"
+            android:text="Add Wallet"
+            android:layout_marginTop="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/wallet_new"
+        android:layout_below="@+id/imgg"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="20sp"
+            android:textSize="15sp"
+            android:fontFamily="@font/gotham_rounded_medium"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/red"
+            android:text="Wallet Balance:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/algo"
+                android:layout_marginTop="15dp"
+                />
+            <TextView
+                android:id="@+id/balance_txt"
+                android:layout_marginTop="20sp"
+                android:textSize="18sp"
+                android:fontFamily="@font/gotham_rounded_medium"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/red"
+                android:text="10000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/walletAddMoney_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_solid_white"
+                android:fontFamily="@font/gotham_rounded_medium"
+                android:text="Add Amount"
+                android:layout_marginTop="20sp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/wallet_in_progress"
+        android:layout_below="@+id/imgg"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="20sp"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:fontFamily="@font/gotham_rounded_medium"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:text="@string/wallet_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

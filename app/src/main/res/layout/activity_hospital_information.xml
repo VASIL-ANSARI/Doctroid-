@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrayBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+            <TextView
+                android:id="@+id/name_hospital_id"
+                android:layout_marginTop="5dp"
+                android:text="DETAILS"
+                android:fontFamily="@font/gotham_rounded_book"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/colorBabyBlue"
+                android:layout_width="100dp"
+                android:layout_height="5dp"/>
+
+
+            <EditText
+                android:padding="5dp"
+                android:id="@+id/facebookUrl_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Facebook url"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:background="@null"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="gotham_rounded_book" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <EditText
+                android:padding="5dp"
+                android:id="@+id/websiteUrl_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Website url"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:background="@null"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="gotham_rounded_book" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <EditText
+                android:padding="5dp"
+                android:id="@+id/emailId_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:background="@null"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="gotham_rounded_book" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/phone_hospital_id"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="PHONE"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="gotham_rounded_book"
+                android:inputType="phone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/location_hospital_id"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="LOCATION"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="gotham_rounded_book"
+                android:inputType="phone" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:id="@+id/Manager_Details"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:text="Manger details..."
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="gotham_rounded_book" />
+
+
+            <Button
+                android:id="@+id/hospital_save_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/back_solid_primary_dark"
+                android:fontFamily="gotham_rounded_medium"
+                android:text="SAVE INFO"
+                android:textColor="@color/colorWhite"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

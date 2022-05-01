@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "61000070133",
+    "firebase_url": "https://doctroid-app-default-rtdb.firebaseio.com",
+    "project_id": "doctroid-app",
+    "storage_bucket": "doctroid-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61000070133:android:3d42aa8de35e5da50aa6bc",
+        "android_client_info": {
+          "package_name": "com.example.bchainprac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61000070133-u13ms10jrscoos9li9cnhhekgq3gn0im.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVHkrAml2H0eoanPaeCn0WY_xqfdmtcmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61000070133-u13ms10jrscoos9li9cnhhekgq3gn0im.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

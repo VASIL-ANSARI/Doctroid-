@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_medicine_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/item_medicineList_name"
+            android:layout_width="0dp"
+            android:text="Owner Name"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gotham_rounded_medium"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:transitionName="transName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintTop_toBottomOf="@id/item_medicineList_name"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/item_medicineList_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Owner designation: "
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/colorGreen"
+                android:fontFamily="@font/gotham_rounded_book"
+                android:textSize="16sp"
+                android:transitionName="transQuantity"/>
+
+            <TextView
+                android:id="@+id/item_medicineList_price"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="General Manager"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/colorGreen"
+                android:fontFamily="@font/gotham_rounded_book"
+                android:textSize="16sp"
+                android:transitionName="transPrice" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/back_edit_text_border"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/linearLayout4"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/txtll5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="DOB: "
+                android:maxLines="1"
+                android:textColor="@color/colorGreen"
+                android:fontFamily="@font/gotham_rounded_book"
+                android:textSize="16sp"
+                android:transitionName="transQuantity"/>
+
+            <TextView
+                android:id="@+id/item_dob_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="12/03/2021"
+                android:maxLines="1"
+                android:textColor="@color/colorGreen"
+                android:fontFamily="@font/gotham_rounded_book"
+                android:textSize="16sp"
+                android:transitionName="transPrice" />
+            <TextView
+                android:id="@+id/txtll123"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="City: "
+                android:maxLines="1"
+                android:textColor="@color/colorGreen"
+                android:fontFamily="@font/gotham_rounded_book"
+                android:textSize="16sp"
+                android:transitionName="transQuantity"/>
+
+            <TextView
+                android:id="@+id/item_city_owner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ajmer"
+                android:maxLines="1"
+                android:textColor="@color/colorGreen"
+                android:fontFamily="@font/gotham_rounded_book"
+                android:textSize="16sp"
+                android:transitionName="transPrice" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
