@@ -38,7 +38,7 @@ Tech Used :
 <img src="https://innovationm.co/wp-content/uploads/2017/11/1.-Firebase-Authentication__1.png" alt='Firebase Authentication' width="200" height="200" align="left"/>
 <img src ="https://media.geeksforgeeks.org/wp-content/uploads/20190421141241/gfg53.png" alt='Firebase database' width="200" height="200" align="middle"/>
 
-<img src ="https://www.pinclipart.com/picdir/middle/258-2581791_google-maps-markerphoto-imagegoogle-maps-api-clipart.png"alt='Google Maps API' width="200" height="200"  align="left" />
+<img src ="https://www.pinclipart.com/picdir/middle/258-2581791_google-maps-markerphoto-imagegoogle-maps-api-clipart.png" alt='Google Maps API' width="200" height="200"  align="left" />
 <img src ="https://logodix.com/logo/28614.png" alt='Twillio API' width="200" height="200" align="middle" />
 
 <img src ="https://tse3.mm.bing.net/th?id=OIP.dz4m0lV5yrGVjLIXF2Kh9QHaGN&pid=Api&P=0&w=197&h=165" alt='Algorand BlockChain' width="200" height="200" align="left"/>
