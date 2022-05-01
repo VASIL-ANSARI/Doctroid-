@@ -15,7 +15,7 @@ Code available in master Branch.
 
 Above two link show a brief demo of application with respect to User section and Hospital Section.
 
-#Intro:
+# Intro:
 
 During the time of the pandemic, hospitals were flooded with the patients of Covid19. Due to this, the patients of other ailments were not able to get proper treatment and were stuck at their homes with helpless hands. Due to this, the need of online medical apps arose so that doctors can treat their patients without patients being physically present and hence following Covid 19 norms.
 
@@ -23,7 +23,7 @@ So, we have developed an Android application, so that users can communicate with
 
 Hospital profiles need to be verified by the admin and verification code will be sent to them with a Unique ID for login purposes. Further, the profiles of hospital owners will be verified by the admin and then only the hospital will have complete access to its profile. Hospitals can upload images of their ICUs, rooms, etc., for user’s convenience.
 
-#Features:
+# Features:
 
 Users can sign up with their details along with valid email and password will be verified and used for further login purposes as  well in case the user forgot the password.
 
@@ -39,7 +39,7 @@ Hospital's Home Screen have options to add medical tests , accept / reject appoi
 Brief  description of medicines and lab tests are provided for user understanding.
 
 
-#References:
+# References:
 
 1.Medical Applications : https://www.androidauthority.com/best-medical-apps-for-android-609131/
 
@@ -55,7 +55,7 @@ Brief  description of medicines and lab tests are provided for user understandin
 
 7.Google Client Api : https://developers.google.com/android/guides/google-api-client
 
-Tech Used :
+# Tech Used :
 
 <img src="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png" alt='Java' width="200" height="200" align="left"/>
 <img src ="https://tse2.mm.bing.net/th?id=OIP.ng3VSQQOqW_gUd4dkTT1mgHaHa&pid=Api&P=0&w=168&h=168" alt='Android Studio'width="200" height="200" align="middle"/>
@@ -69,4 +69,4 @@ Tech Used :
 <img src ="https://tse3.mm.bing.net/th?id=OIP.dz4m0lV5yrGVjLIXF2Kh9QHaGN&pid=Api&P=0&w=197&h=165" alt='Algorand BlockChain' width="200" height="200" align="left"/>
 <img src="https://gcpfirebase.com/wp-content/uploads/2020/12/Firebase-Realtime-Database-vs-Cloud-Firestore-Choice-in-2021.png" alt='Firebase Storage' width="200" height="200" align="middle"/>
 
-##THANK YOU
+## THANK YOU
